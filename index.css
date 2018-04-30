@@ -35,13 +35,24 @@
     color: white;
 }
 .about {
+    padding-top: 2vh;
+    text-align: center;
     background-color: rgb(0, 0, 0);
 }
 .about__item {
-    width: 20%;
-    height: 30vh;
-    border: 2px solid red;
+    margin: 2%;
+    display: inline-block;
+    width: 25%;
+    height: 35vh;
 }
+.about__item h2,p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* overlay on img
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+ url(YOUR IMAGE HERE); */
 
 
 
